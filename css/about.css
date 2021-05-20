@@ -1,0 +1,27 @@
+.nav-link{
+    color:#757575;
+}
+#section2{
+    background-image: url("./images/main.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding:4%;
+}
+#section4{
+    background-image: url("./images/bg-1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+#section4 h2:hover{
+    color:white
+}
+#section3{
+    background-color: #f2f2f2;
+    font-size: large;
+}
+#section3 hr{
+    width:80%;
+    border-bottom: 1px solid black;
+}

@@ -1,0 +1,97 @@
+.nav-link{
+    color:#757575;
+}
+#section2{
+    background-image: url("./images/main.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding:4%;
+    opacity: 0.8;
+}
+#section2 h1{
+    font-size:xx-large;
+    color: white;
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#section2 h3{
+    font-size:x-large;
+    color: white;
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}                           
+#section3{
+    background-color: #f2f2f2;
+    font-size: large;
+}
+#section3 hr{
+    width:80%;
+    border-bottom: 1px solid black;
+}
+#section4 .card-body{
+    padding: 15%;
+    box-shadow: 3px 3px 6px #cbced1,-3px -3px 6px #ffffff;
+}
+#section4 .card-body:hover{
+    background-color: black;
+    color: white;
+}
+#section5{
+    background-image: url("./images/bg-1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+#section5 h2:hover{
+    color:white
+}
+#section7{
+    padding:5% 10%;
+    background-color: rgb(247, 247, 239);
+}
+.social a:hover i{
+    color:#FFFFFF;
+    transition:all ease 0.5s;
+   }
+.social{
+    position: fixed;
+    top:50%;
+    right:0px;
+    transform:translateY(-50%);
+   }
+   .social i{
+    color:#000000;
+   }
+   .social a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width:50px;
+    height:50px;
+    margin:0px;
+    padding: 0px;
+    line-height:0px;
+    background-color:white;
+    border:1px solid #CBCBCB;
+    box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+   }
+   .social a:hover{
+    background-color:#000000;
+    transition:all ease 0.5s;
+   }
+   .social i{
+    font-size:20px;
+    color:#2B2B2B;
+   }
+    
+.top-arrow{
+    position: fixed;
+    bottom:10px;
+    right: 10px;
+    display:none;
+}    
+.top-disp{
+    display: block;
+}

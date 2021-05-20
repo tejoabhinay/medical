@@ -1,0 +1,27 @@
+.nav-link{
+    color:#757575;
+}
+#section5{
+    padding:3% 10% ;
+    background-image: url("./images/main.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+#section5 h2{
+    text-align: center;
+}
+#section5 ul li{
+    padding: 8px;
+    background-color: rgb(195, 217, 247);
+    border-radius: 5%;
+    margin:5px;
+}
+#section4{
+    background-color: #f2f2f2;
+    font-size: large;
+}
+#section4 hr{
+    width:80%;
+    border-bottom: 1px solid black;
+}
